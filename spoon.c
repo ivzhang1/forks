@@ -6,6 +6,7 @@
 
 int main(){
   srand(time(NULL));
+  printf("PREFORKING\n");
   int f = fork();
   int g;
   if(f){
